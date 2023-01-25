@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Vector.logo.svg" type="image/x-icon">
+</head>
+<body>
+     <header>
+         <div class="topo-site">
+             <img src="cabecalho.png"> 
+         </div>
+         <div>
+             <h1 class="texto-principal">Challenge Decodificador de Textos</h1>
+             <p class="descricao">Quer escreve uma mensagem secreta ou descriptografar uma?<br> 
+             Utilize os campos abaixo para escrever a mensagem e depois clique na função desejada.</p> 
+         </div>
+    </header>
+    <main class="main container">
+       <header class="cabecalho">
+       
+    </header>
+        
+   
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" cols="100" rows="30" placeholder= "Digite seu texto..."></textarea>
+                <p><img src="Exclamação.vector.svg"> ATENÇÃO: Apenas letras minusculas e sem acento</p>
+            </div>
+        
+            <div id="output">
+                <img src="logo-cripto.png">
+                <h2>Sua mensagem aparecerá aqui</h2>
+                <span>Digite um texto que deseja criptografar ou descriptografar</span>
+        
+            </div>
+          </div>
+            
+        <div class= "container-btn">
+            <button onclick="criptografar()" class="container-btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="container-btn-descriptografar">Descriptografar</button>
+        
+        </div>
+          </div>
+        
+    </main>
+    
+    <footer class="rodape">
+        <div class="icons">
+            <a href=https://www.linkedin.com/in/alexandre-ant%C3%B4nio-oliveira-nunes-118787133/><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href=><ion-icon name="logo-github"></ion-icon></a>
+            <a href=><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <p class="copyright"> © Desenvolvido por ALEXANDRE NUNES</p>
+
+    </footer>
+   
+    <script src="java.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

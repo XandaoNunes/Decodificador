@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+body {
+    background:#EFF1FA;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Inter, sans-serif;
+    
+}
+.topo-site {
+    position: relative;
+    margin: 0 auto;
+    background: url("cabecalho.png");
+    background-size: cover;
+    padding: 1px 1px; 
+}
+
+.texto-principal {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao {
+    text-align: center;
+    padding-top: 2%;
+    margin: 0 100px 10px;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content:space-between;
+    padding: 1%;
+}
+
+.titulo {
+     padding-top: 2%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+
+.container-input {
+    display:flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height:330px;
+
+}
+
+.input textarea {
+    font-size: 2em;
+    font-family: "Inter";
+    width: 100%;
+    height: 340px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    color: #030303;
+    outline: 0;
+}
+
+
+
+#output {
+    display: flex;
+    flex-direction:column;
+    width: 350px;
+    height:400px;
+    margin-right: 10%;
+}
+
+#output h2 {
+    text-align: center;
+    font-size:24px;
+    color: #030303;
+}
+
+#output span{
+    text-align: center;
+    font-size: 18px;
+    color: #030303;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: 0;
+}
+
+#output img {
+    max-width: 300px;
+    max-width:300px;
+    width:auto;
+    height: auto;
+    margin-top:4%;
+}
+
+.container-btn button {
+    background: #030303;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar {
+    background: #030303;;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-btn button:hover {
+    border: 2px solid rgb(3, 3, 83);
+    transition: 1s all;
+}
+
+.rodape {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:2%;
+    margin-top: 50px;
+    background: #030303 ;
+}
+
+.icons ion-icon{
+    color: #FFFFFF;
+    width:25px;
+    height: 25px;
+
+}
+
+.icons ion-icon:hover{
+    color: #5280fd;
+    transition: 1s all;
+}
+
+.rodape p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 10px 0;
+}
